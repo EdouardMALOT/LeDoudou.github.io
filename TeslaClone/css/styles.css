@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+    background: url("../img/back.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+    color: white;
+}
+
+#page {
+    margin: auto;
+    width: 1020px;
+}
+
+
+.color-transition{
+   /* Standard syntax */
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.border-transition{
+   /* Standard syntax */
+    transition-property: border;
+    transition-duration: 0.28s;
+    transition-timing-function: linear;
+}
+
+
+/* HEARDER */
+header {
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+ 
+#car-models {
+   display: inline-block;
+   font-family: 'Roboto', sans-serif;
+}
+
+#car-models li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#car-models li a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.82em;
+    font-family:  "HeiS ASC Simplified Chinese","HeiS ASC Simplified Chinese_n5","HeiT ASC Traditional Chinese","HelveticaNeue-Regular","Helvetica Neue Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+#divers-menu {
+    display: inline-block; 
+    float: right;   
+}
+
+#divers-menu li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+#divers-menu li a{
+    color: #E0E0E0;
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-family:  "HeiS ASC Simplified Chinese","HeiS ASC Simplified Chinese_n5","HeiT ASC Traditional Chinese","HelveticaNeue-Regular","Helvetica Neue Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 680;
+}
+
+#divers-menu li a:hover{
+    color: #FEFEFE;
+}
+
+
+/* CENTRAL MSG */
+#main-msg{
+    margin-top: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#sub-msg {
+    margin: -20px;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+#sub-msg a {
+    color: #F0F0F0;
+}
+
+#sub-msg a:hover {
+    color: #FFFFFF;
+}
+
+#boxes{
+    margin: auto;
+    margin-top: 45px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#grey-boxe {
+    background: #60676B;
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    border: 1px solid #60676B;
+    font-size: 0.8em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+#grey-boxe:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;    
+    position:absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin:0 auto;
+    width:700px;
+}
+
+
+.bottom-text {
+    display: inline-block;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.82em;
+    color: #CCCCCC;
+}
+
+.bottom-text:hover {
+    cursor: pointer;
+}
