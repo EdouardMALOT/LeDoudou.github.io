@@ -87,6 +87,8 @@ h2 {
     width: 100%;
     margin: 0 auto;
     padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     overflow: hidden;    
 }
 
@@ -412,6 +414,123 @@ nav ul {
 .copyright-footer img{
     margin-left: 30px;
 }
+
+
+/* -------------------------------- MEDIA QUERIE -------------------------------- */
+
+@media only screen and (max-width: 1280px) {
+    
+   #hero-cta-left {
+        margin-right: 30px;
+    }
+ 
+}
+
+
+@media only screen and (max-height: 800px) {
+    
+    #hero-cta {
+        margin-top: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1060px) {
+    
+   #iphone-hero1 {
+        display: none;
+    }
+    
+    #hero-cta-left {
+        text-align: center;
+        margin-bottom: 50px;  
+        padding-top: 40px;
+    }
+    
+    #features .container {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    
+    #features .container>p{
+        padding: 0 30px;
+    }
+    
+    #footer{
+        padding-right: 0px
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    #hero-cta-left {
+        padding-top: 0px;
+    }
+    
+    #hero-cta-left p {
+        font-size: 28px;
+    }
+
+    .download-info{
+        padding: 60px 0px;
+        width: 80%;
+        padding-right: 100px;
+    }
+    
+    .download-btn{
+        margin-left: 150px;
+    }
+    
+    
+    .row{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    
+    .column-4 p{
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+   
+    .footer-column {
+        -ms-flex-line-pack: center;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .footer-column p{
+        font-size: 20px; 
+        padding-bottom: 0;
+    }
+    
+    .footer-column img{
+        display: none;
+    }
+    
+    #footer-logo{
+       display: none;
+    }
+    
+    #footer{
+        padding: 20px 0;
+    }
+    
+    .footer-h3{
+        font-size: 36px !important;
+        padding-bottom: 5px !important;
+    } 
+
+}
+
+
+
+
+
 
 
 
