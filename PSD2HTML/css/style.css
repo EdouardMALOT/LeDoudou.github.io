@@ -161,8 +161,9 @@ nav ul {
 }
 
 #iphone-img {
-    width: 70%;
+    transform: scale(0.85, 0.85);
     margin-bottom: -200px;
+    margin-top: -40px;
 }
 
 
@@ -321,19 +322,23 @@ nav ul {
 .copyright {
     background-color: #dee4e3;
 }
-
 .copyright-footer {
+    text-align: center;
+    margin-bottom: 20px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: baseline;
+
 }
-.copyright-footer h3 {
-    padding-bottom: 20px;
+.copyright-footer h3:after{
+    content: "";
+    border: solid 1px #404040;
+    margin-left: 30px
 }
 
-
-
-
+.copyright-footer img{
+    margin-left: 30px;
+}
 
 
 
