@@ -99,11 +99,17 @@ h2 {
 }
 
 #hero-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
 nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -122,18 +128,24 @@ nav ul {
     text-decoration: none;
     padding: 0 6px 5px 6px;
     border-bottom: solid 3px #fafafa transparent;
+    -webkit-transition: border-bottom 0.15s, color 0.15s;
     transition: border-bottom 0.15s, color 0.15s;
 }
 
 .menu-item:hover {
     border-bottom: solid 3px #fafafa;    
+    -webkit-transition: border-bottom 0.15s, color 0.15s;    
     transition: border-bottom 0.15s, color 0.15s;
 }
 
 
 #hero-cta {
-    margin-top: 100px;
+    margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between
 }
 
@@ -160,12 +172,52 @@ nav ul {
     
 }
 
-#iphone-img {
-    transform: scale(0.85, 0.85);
-    margin-bottom: -200px;
-    margin-top: -40px;
+.iphone-parent-div{
+    position: relative;
+    height: 800px;
+    width: 1200px;
+    margin-bottom: -170px;
 }
 
+#iphone-img {
+    position: absolute;
+    -webkit-transform: scale(0.85, 0.85);
+    transform:s scale(0.85, 0.85);
+    left: -10px;
+    top : -50px;
+}
+
+/*Animation, make the iphone transparent before animation start*/
+.js-wp-iphone {
+    opacity: 0.0;
+}
+
+.js-wp-iphone.animated{
+    opacity: 1.0;
+}
+
+
+.iphone-screen {
+     position: absolute;
+    -webkit-transform: scale(0.85, 0.85);
+    transform:s scale(0.85, 0.85);
+    left: 80px;
+    top : 82px; 
+    opacity: 0.0;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+.iphone-screen.screen-on {
+    opacity: 1.0;
+}
+
+.iphone-btn{
+    position: absolute;
+    -webkit-transform: scale(0.85, 0.85);
+    transform:s scale(0.85, 0.85);
+    left: 287px;
+    top : 22px;   
+}
 
 #btn-download {
     color: #F9F9F9;
@@ -177,15 +229,20 @@ nav ul {
     padding: 25px 50px;
     border-radius: 50px;
     border: none;
+    -webkit-transition: 0.15s;
     transition: 0.15s;
 } 
 
 #btn-download:hover {
     background-color: #484848;
+    -webkit-transition: 0.15s;
     transition: 0.15s;
 }
 
 #btn-download img{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
     align-items: center;
     vertical-align:middle;
     margin-right: 20px;
@@ -212,11 +269,17 @@ nav ul {
 }
 
 .row{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
 .column-4{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 27%;
     flex: 0 0 27%;
 }
 
@@ -271,12 +334,14 @@ nav ul {
     border-radius: 50px;
     color: white;
     text-decoration: none;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
     margin-left: 20px;
 }
 
 .download-btn:hover {
     background: #c33934;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
 }
 
@@ -301,6 +366,8 @@ nav ul {
 
 .footer-left-row-item{
     margin: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -325,8 +392,14 @@ nav ul {
 .copyright-footer {
     text-align: center;
     margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 
 }
