@@ -73,6 +73,17 @@
         src: local('Gotham-Medium.otf'), url('Gotham-Medium.otf') format('opentype');
     }
 
+    @font-face {
+        font-family: 'Gotham-Black';
+        src: local('Gotham-Black.otf'), url('Gotham-Black.otf') format('opentype');
+    }
+
+    @font-face {
+        font-family: 'Gotham-Thin';
+        src: local('Gotham-Thin.otf'), url('Gotham-Thin.otf') format('opentype');
+    }
+
+
     body {
         font-family: 'Gotham-Bold', sans-serif;   
         color: white;
@@ -311,18 +322,107 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
     }
 
+/*---- Categories ----*/
     #categories {
         margin-right: 30px;
         -ms-flex-preferred-size: 280px;
         flex-basis: 280px;
         -ms-flex-negative: 0;
         flex-shrink: 0;
-        height: 500px;
-        border: solid 1px red;
+        
+        background-color: #fafafa;
+/*        height: 500px;*/
+/*        border: solid 1px red;*/
+        
     }
 
+    #categories * {
+        font-family: 'Gotham-medium';
+        font-weight: 400;
+        font-size: 18px;   
+        line-height: 55px;
+        padding-left: 7px;
+        color: #363636;
+    }
+        
+    #categories h1{
+        background-color: #f5f5f5;
+    }
+
+    #menu-list>li{
+        font-family: 'Gotham-Book';
+        font-size: 400;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #menu-list>li:after {
+        content: url('../img/arrow-down.png');
+        margin-right: 45px;
+    }    
+
+
+    #menu-list>li img {
+        margin-right: 45px;
+    }
+
+    .green-bold{
+        color: #9cbf3e !important;
+        text-transform: uppercase;
+        font-family: 'Gotham-Bold' !important;
+    }
+
+    .categorie-selected{
+        color: #009cda !important;
+    }
+
+    .sub-categorie li:before { 
+        content: "";
+        border-color: transparent #cacaca;
+        border-style: solid;
+        border-width: 0.35em 0 0.35em 0.45em;
+        height: 0;
+        width: 0;
+        left: 0em;
+        top: 0.7em;
+        position: relative;
+    }
+
+    .sub-categorie li{
+        font-family: 'Gotham-Thin' !important;
+        font-size: 14px !important;
+        font-weight: 700;
+        color: #cacaca;
+        text-align: left;
+    }
+
+    .sub-categorie-active{
+        display: none;
+    }
+
+/*****************************************
+ ************ JOB TO CONTINUE ************
+*****************************************/
+
+
+
+
+
+
+
+/*---- Products ----*/
     #products{
         display: -webkit-box;
         display: -ms-flexbox;
