@@ -249,6 +249,7 @@
 /* -------------------------------------- */
 
     #jumbotron {
+        margin-top: 135px;
         background-image: url("../img/topbanner.jpg");        
         background-size: cover;
         background-position: center;
@@ -281,8 +282,6 @@
         line-height: 18px;
     }
 
-    
-
 
 
 /* -------------- Main ------------- */ 
@@ -300,10 +299,13 @@
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        color: #adb0b3;
+        color: #58595b;
         padding-right: 40px;
     }
 
+    #short-by-arrow{
+        margin-left: 15px;
+    }
 
     #main-div-content {
         display: -webkit-box;
@@ -419,11 +421,92 @@
 
 
 
+/* -------------- Footer ------------- */ 
+/* ----------------------------------- */
+    #footer{
+        background-color: #282828;
+    }
+
+    #footer-div{
+        height: 350px;
+        padding-top: 85px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
+
+    
+    #logofooter{
+        height: 90px;
+        width: auto;
+    }
+
+    #footer-div h3{
+        font-family: 'Gotham-Bold';
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    #footer-div ul {
+        margin: 0.75em 0;
+        padding: 0 1em;
+        list-style: none;
+    }
+
+    #footer-div ul a{
+        text-decoration: none;
+    }
+
+    #footer-div li{
+        font-family: 'Gotham-Medium';
+        font-size: 15px;
+        margin-bottom: 12px;
+        color: #EEE;
+    }
+
+    #footer-div li:before { 
+        content: "";
+        border-color: transparent #EEE;
+        border-style: solid;
+        border-width: 0.35em 0 0.35em 0.45em;
+        display: block;
+        height: 0;
+        width: 0;
+        left: -1em;
+        top: 0.7em;
+        position: relative;
+    }
+
+    .media-logo img{
+        margin-left: 20px;
+    }
 
 
+/* -------------- Copyright ------------- */ 
+/* -------------------------------------- */
 
+    #copyright-div{
+        font-family: 'Gotham-Book';
+        height: 70px;
+        color: #404040;
+        
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
 
-
+    #copyright-div img{
+        margin-left: 50px;       
+    }
 
 
 
