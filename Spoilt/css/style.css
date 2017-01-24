@@ -1,0 +1,447 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+
+/* -------------------------------- More Reser rules -------------------------------- */ 
+    * {
+        box-sizing: border-box;
+    }
+
+/* -------------------------------- GENERALES RULES -------------------------------- */ 
+    @font-face {
+        font-family: 'Gotham-Bold';
+        src: local('Gotham-Bold.otf'), url('Gotham-Bold.otf') format('opentype');
+    }
+
+    @font-face {
+        font-family: 'Gotham-Light';
+        src: local('Gotham-Light.otf'), url('Gotham-Light.otf') format('opentype');
+    }
+
+    @font-face {
+        font-family: 'Gotham-Book';
+        src: local('Gotham-Book.otf'), url('Gotham-Book.otf') format('opentype');
+    }
+
+    @font-face {
+        font-family: 'Gotham-Medium';
+        src: local('Gotham-Medium.otf'), url('Gotham-Medium.otf') format('opentype');
+    }
+
+    body {
+        font-family: 'Gotham-Bold', sans-serif;   
+        color: white;
+    }
+
+    h1 {
+        font-size: 48px;
+        font-weight: 100;
+    }
+
+    .uppercase {
+        text-transform: uppercase;
+    }
+
+    .text-blue{
+         color:  #157ba8;   
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;  
+    }
+
+/* --------------- Banner --------------- */ 
+/* -------------------------------------- */ 
+
+/*--   Top Banner --*/
+    #top-banner {
+        background-color: #323232;
+    }
+
+    #top-banner-cont-div{
+        height: 85px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    }
+
+    .logotop{
+        margin-right: 70px;
+    }
+
+    #nav-menu{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    #nav-menu a,p{
+       font-family: 'Gotham-Bold'; 
+       font-size: 16px;
+    }
+
+
+    #nav-menu a{
+        font-weight: 700;
+        color: white;
+        margin-right: 40px;
+        text-decoration: none;
+        padding-bottom: 9px;
+    }
+
+    nav {
+        margin-right: 90px;
+    }
+
+    .menu-selected {
+        border-bottom: solid 6px #009cda;
+        color: #009cda !important;
+    }
+
+    .top-banner-clock{
+        margin-right: 10px;
+    }
+
+    #nav-menu p{
+        font-weight: 500;
+    }
+
+
+/*--   Sub Top Banner --*/  
+    #sub-top-banner {
+        background-color: white;
+    }
+
+    .sub-top-banner-div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between    
+    }
+
+/*--   Sub Top Banner left part  --*/  
+    #sub-top-banner-left {
+        height: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        color: #adb0b3;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+    }
+
+    #sub-top-banner-left p {
+        text-align: center;
+        width: 170px;
+        margin-left: 4px;
+        padding-bottom: 12px;
+        border-bottom: solid 6px transparent;  
+    }
+
+    .genre-selected {
+        border-bottom: solid 6px #009cda !important;  
+    }
+
+    /*--   Sub Top Banner right part  --*/  
+    #sub-top-banner-right {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #sub-top-banner-right :first-child {
+        color: #009cda !important;
+        margin-right: 55px;
+    }
+
+    #sub-top-banner-right :nth-child(3) {
+        margin-left: 6px;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #sub-top-banner-right :nth-child(2) {
+        margin-top: -5px;                /* vertical position ajustment */
+    }
+
+    #nb-wallet-item {    
+        color: #939598;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+
+
+
+/* -------------- Jumbotron ------------- */ 
+/* -------------------------------------- */
+
+    #jumbotron {
+        background-image: url("../img/topbanner.jpg");        
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 480px;
+        text-align: center;
+    }
+
+    #jumbotron-linear-gradient {
+        background-image: -webkit-linear-gradient(315deg, rgba(30,30,30,0.5) 30%, rgba(46,46,46,0.4) 80%);
+        background-image: linear-gradient(-225deg, rgba(30,30,30,0.5) 30%, rgba(46,46,46,0.4) 80%);
+        width: 100%;
+        height: 480px;
+    }
+
+    #fashion-logo {
+        margin-top: 120px;
+    }
+
+    #jumbotron-div h1{
+        margin-top: 45px;
+        font-family:'Gotham-Light';
+    }
+
+    #jumbotron-div p{
+        margin: 15px auto 0 auto;
+        width: 580px;
+        font-family:'Gotham-Book';
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    
+
+
+
+/* -------------- Main ------------- */ 
+/* --------------------------------- */
+
+    #short-by {
+        width: 100%;
+        height: 98px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #adb0b3;
+        padding-right: 40px;
+    }
+
+
+    #main-div-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    #categories {
+        margin-right: 30px;
+        -ms-flex-preferred-size: 280px;
+        flex-basis: 280px;
+        height: 500px;
+        border: solid 1px red;
+    }
+
+    #product{
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+      border: solid 1px red;
+    }
+
+
+    /*---- Product ----*/
+    .product-item{
+        position: relative;
+        width: 280px;
+        height: 460px;
+/*        border: solid 1px orange;  */
+        color: #444444;
+        font-family: 'Gotham-Medium';
+        font-size: 15px;
+    }
+
+    .product-item-img{
+        width: 100%;
+        height: auto;
+    }
+
+
+    .product-item-saleicon-img{
+        position: absolute;
+        top: 8px;
+        right: 0px;
+    }
+
+    .sale-icon{
+        content: url("../img/sale-logo.png") !important;
+    }
+    .new-icon{
+        content: url("../img/new-logo.png");
+    }
+
+
+    .product-item-wishlisticon-img{
+        position: absolute;
+        top: 8px;
+        left: 12px; 
+    }
+
+    .wishlist-active{
+        content: url("../img/wishlist-logo-active.png");
+    }
+
+    .product-item-description{
+        padding-top: 25px;
+    }
+
+    hr{
+        color: #e8e8e8;
+    }
+
+    .product-item-price-and-addcard{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .btn-add-card{
+        margin-right: 8px;
+        text-decoration: none;
+        font-family: 'Gotham-Bold';
+        font-size: 15px;
+        padding: 15px 25px;
+        color: #009cda;
+        border: solid 2px #009cda;
+        border-radius: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
