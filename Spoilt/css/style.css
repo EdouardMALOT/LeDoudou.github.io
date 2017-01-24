@@ -211,9 +211,10 @@
     }
 
     #sub-top-banner-left p {
+        font-family: 'Gotham-Bold';
         text-align: center;
         width: 170px;
-        margin-left: 4px;
+        margin-right: 4px;
         padding-bottom: 12px;
         border-bottom: solid 6px transparent;  
     }
