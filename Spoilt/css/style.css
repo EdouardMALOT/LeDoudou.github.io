@@ -100,10 +100,20 @@
 /* --------------- Banner --------------- */ 
 /* -------------------------------------- */ 
 
-/*--   Top Banner --*/
+    fixed-banner{
+
+    }
+
+/*--  Top Banner --*/
     #top-banner {
         background-color: #323232;
+        
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */   
+        z-index: 1000;
     }
+
 
     #top-banner-cont-div{
         height: 85px;
@@ -162,6 +172,10 @@
 /*--   Sub Top Banner --*/  
     #sub-top-banner {
         background-color: white;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 85px; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */   
+        z-index: 1001;
     }
 
     .sub-top-banner-div {
@@ -301,17 +315,27 @@
         margin-right: 30px;
         -ms-flex-preferred-size: 280px;
         flex-basis: 280px;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
         height: 500px;
         border: solid 1px red;
     }
 
-    #product{
+    #products{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
         -webkit-box-flex: 1;
         -ms-flex-positive: 1;
         flex-grow: 1;
         -ms-flex-preferred-size: auto;
         flex-basis: auto;
-      border: solid 1px red;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+/*        border: solid 1px red;*/
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
     }
 
 
@@ -327,10 +351,10 @@
     }
 
     .product-item-img{
-        width: 100%;
-        height: auto;
+        height: 317px;
+        width: 100%;        
+        
     }
-
 
     .product-item-saleicon-img{
         position: absolute;
@@ -358,6 +382,12 @@
 
     .product-item-description{
         padding-top: 25px;
+    }
+
+    .img-bullet{
+        position: absolute;
+        top: 295px;
+        left: 126px;
     }
 
     hr{
