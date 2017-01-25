@@ -1,4 +1,27 @@
 //Wait until all page is dowloaded (img also)
 $(window).on("load",function(){ 
+    
+    
+    //nav-menu
+         $('.nav-menu-item').click(function(){
+             $('.nav-menu-item').removeClass('menu-selected');
+             $(this).addClass('menu-selected');
+             return false;
+         });
+
+    //Men / Woman selection
+         $('.genre-item').click(function(){
+             $('.genre-item').removeClass('genre-selected');
+             $(this).addClass('genre-selected');
+             return false;
+         });
+    
+    //Wishlist event
+        $('.product-item-wishlisticon-img').click(function() {
+            $(this).toggleClass('wishlist-active');
+            return false;
+        });
+        
+    
 
 });

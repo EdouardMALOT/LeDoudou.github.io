@@ -160,6 +160,12 @@
         margin-right: 40px;
         text-decoration: none;
         padding-bottom: 9px;
+        transition: 0,25s;
+    }
+
+    #nav-menu li a:hover{
+        opacity: 0.9;
+        transition: 0,25s;
     }
 
     nav {
@@ -189,6 +195,7 @@
         z-index: 1001;
     }
 
+
     .sub-top-banner-div {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -217,6 +224,20 @@
         margin-right: 4px;
         padding-bottom: 12px;
         border-bottom: solid 6px transparent;  
+    }
+
+    #sub-top-banner-left a {
+        text-decoration: none;
+        transition: 0.25s;
+    }
+
+    #sub-top-banner-left a:active {
+        color: black;
+    }
+    
+    #sub-top-banner-left a:hover {
+        opacity: 0.8;
+        transition: 0.25s;
     }
 
     .genre-selected {
@@ -389,17 +410,11 @@
         color: #009cda !important;
     }
 
-    .sub-categorie li:before { 
-        content: "";
-        border-color: transparent #cacaca;
-        border-style: solid;
-        border-width: 0.35em 0 0.35em 0.45em;
-        height: 0;
-        width: 0;
-        left: 0em;
-        top: 0.7em;
-        position: relative;
-    }
+.sub-categorie li:before {
+    content: '\25B8';
+    margin-right: 5px;
+}
+
 
     .sub-categorie li{
         font-family: 'Gotham-Thin' !important;
@@ -409,9 +424,7 @@
         text-align: left;
     }
 
-    .sub-categorie-active{
-        display: none;
-    }
+  
 
 /*****************************************
  ************ JOB TO CONTINUE ************
@@ -477,10 +490,12 @@
         position: absolute;
         top: 8px;
         left: 12px; 
+        transition: 0,4s;
     }
 
     .wishlist-active{
         content: url("../img/wishlist-logo-active.png");
+        transition: 0,4s;
     }
 
     .product-item-description{
@@ -566,7 +581,19 @@
         font-size: 15px;
         margin-bottom: 12px;
         color: #EEE;
+        
+/*
+        position: relative;
+        right: 15px;
+*/ 
     }
+/*
+#footer-div li:before { 
+    content: '\25B8';
+    margin-right: 5px;
+}
+*/
+
 
     #footer-div li:before { 
         content: "";
@@ -580,6 +607,9 @@
         top: 0.7em;
         position: relative;
     }
+
+
+
 
     .media-logo img{
         margin-left: 20px;
