@@ -26,7 +26,14 @@ $(window).on("load",function(){
         $('.menu-categories').click(function(){
              $(this).next('.sub-categorie').slideToggle("slow");
              $(this).toggleClass('cat-selected');
+             $(this).next('img').rotate(45);
         });
+    
+        //Disable link effect
+        $('.sub-categorie a').click(function(){
+            return false;
+        })
+        
         
 
 });
