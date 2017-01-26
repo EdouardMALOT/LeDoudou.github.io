@@ -34,6 +34,9 @@ $(window).on("load",function(){
             return false;
         })
         
-        
+        //Disable link effect
+        $('.btn-add-card').click(function(){
+            return false;
+        })      
 
 });
