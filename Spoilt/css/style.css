@@ -367,17 +367,32 @@
         
     }
 
-    #categories * {
+
+    #categories h1{
         font-family: 'Gotham-medium';
         font-weight: 400;
         font-size: 18px;   
         line-height: 55px;
-        padding-left: 7px;
+        padding-left: 30px;
         color: #363636;
-    }
         
-    #categories h1{
         background-color: #f5f5f5;
+    }
+
+    #categories>ul{
+        padding-left: 26px;
+        padding-right: 26px;
+        
+    }
+
+    #categories ul>li {
+        font-family: 'Gotham-Book';
+        font-weight: 400;
+        font-size: 15px;   
+        line-height: 56px;
+
+        color: #363636;
+        border-bottom: 1px solid #f2f2f2;
     }
 
     #menu-list>li{
@@ -396,7 +411,7 @@
 
     #menu-list>li:after {
         content: url('../img/arrow-down.png');
-        margin-right: 45px;
+        margin-right: 15px;
     }    
 
 
@@ -414,11 +429,12 @@
         color: #009cda !important;
     }
 
-.sub-categorie li:before {
-    content: '\25B8';
-    margin-right: 5px;
-}
 
+
+    .sub-categorie li:before {
+        content: '\25B8';
+        margin-right: 5px;
+    }
 
     .sub-categorie li{
         font-family: 'Gotham-Thin' !important;
@@ -426,8 +442,12 @@
         font-weight: 700;
         color: #cacaca;
         text-align: left;
+        padding: 5px 0px;
     }
 
+    .sub-categorie a{
+        text-decoration: none;
+    }
   
 
 /*****************************************
