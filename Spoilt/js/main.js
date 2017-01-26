@@ -35,7 +35,7 @@ $(window).on("load",function(){
         })
         
         //Disable link effect
-        $('.btn-add-card').click(function(){
+        $('.btn-add-card a').click(function(){
             return false;
         })      
 
