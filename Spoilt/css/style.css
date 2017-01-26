@@ -393,6 +393,10 @@
         justify-content: space-between;
     }
 
+    #menu-list>li:hover {
+        opacity: 0.7;
+    }
+
     #menu-list>li:after {
         content: url('../img/arrow-down.png');
         margin-right: 15px;
@@ -404,14 +408,19 @@
 
     .green-bold{
         color: #9cbf3e !important;
-        text-transform: uppercase;
         font-family: 'Gotham-Bold' !important;
+        text-transform: uppercase;
     }
 
-    .categorie-selected{
-        color: #009cda !important;
+    .green-bold{
+        color: #9cbf3e !important;
+        font-family: 'Gotham-Bold' !important;
+        text-transform: uppercase;
     }
 
+    .cat-selected{
+       color: #009cda !important;
+    }
 
 /*****************************************
  ************ JOB TO CONTINUE ************
@@ -434,14 +443,11 @@
     .sub-categorie a{
         text-decoration: none;
     }
-  
+   
 
-
-
-
-
-
-
+    .sub-categorie {
+        display: none;
+    }
 
 
 /*---- Products ----*/

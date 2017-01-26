@@ -23,8 +23,9 @@ $(window).on("load",function(){
         });
     
     //Left Menu
-        $('#menu-list>li').click(function(){
-            alert('clicked');  
+        $('.menu-categories').click(function(){
+             $(this).next('.sub-categorie').slideToggle("slow");
+             $(this).toggleClass('cat-selected');
         });
         
 
