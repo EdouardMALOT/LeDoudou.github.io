@@ -21,7 +21,11 @@ $(window).on("load",function(){
             $(this).toggleClass('wishlist-active');
             return false;
         });
-        
     
+    //Left Menu
+        $('#menu-list>li').click(function(){
+            alert('clicked');  
+        });
+        
 
 });

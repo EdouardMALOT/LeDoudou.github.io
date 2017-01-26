@@ -351,6 +351,7 @@
         -webkit-box-align: start;
         -ms-flex-align: start;
         align-items: flex-start;
+        margin-bottom: 90px;
     }
 
 /*---- Categories ----*/
@@ -419,6 +420,10 @@
         margin-right: 45px;
     }
 
+    #menu-list>li:hover{
+        cursor: pointer;
+    }
+
     .green-bold{
         color: #9cbf3e !important;
         text-transform: uppercase;
@@ -430,11 +435,22 @@
     }
 
 
+    .sub-categorie :first-child {
+        padding-top: 7px;
+    }
 
     .sub-categorie li:before {
         content: '\25B8';
-        margin-right: 5px;
+        margin-right: 15px;
     }
+
+    .sub-categorie {
+        display: none;
+    }
+    .sub-categorie.sub-categorie-active {
+        display: block;
+    }
+
 
     .sub-categorie li{
         font-family: 'Gotham-Thin' !important;
