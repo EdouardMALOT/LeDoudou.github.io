@@ -386,7 +386,8 @@
         font-family: 'Gotham-Book';
         font-weight: 400;
         font-size: 15px;   
-        line-height: 56px;
+        line-height: 52px;
+        margin-bottom: 3px;
         color: #363636;
         border-bottom: 1px solid #f2f2f2;
         display: flex;
@@ -422,9 +423,7 @@
        color: #009cda !important;
     }
 
-/*****************************************
- ************ JOB TO CONTINUE ************
-*****************************************/
+
     .sub-categorie li:before {
         content: '\25B8';
         margin-right: 15px;
@@ -438,6 +437,9 @@
         color: #cacaca;
         text-align: left;
         padding: 5px 0px;
+    }
+    .sub-categorie li:hover{
+        color: #009cda;
     }
 
     .sub-categorie a{
