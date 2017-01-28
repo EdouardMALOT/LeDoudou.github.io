@@ -134,10 +134,12 @@ h3 {
     color: white;
     font-weight: 300;
     letter-spacing: 0.04em;
-    margin-left: 55px;
-    
+    margin-left: 55px; 
 }
 
+.menu li a{
+    color: #f9f9f9;
+}
 
 .section1-left-div h1 {
     margin-bottom: 33px;  
