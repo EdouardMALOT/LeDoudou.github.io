@@ -525,8 +525,21 @@ nav ul {
         padding-bottom: 5px !important;
     } 
 
+    
+    
+    
+        
+    #nav-menu{
+        display: none;
+    }  
+    
+    #mobile-nav-menu{
+        display: block;
+    }
+    
+ 
+    
 }
-
 
 
 
