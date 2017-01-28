@@ -1,0 +1,602 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* -------------------------------- More Reser rules -------------------------------- */ 
+* {
+    box-sizing: border-box;
+}
+
+/* -------------------------------- Helpers -------------------------------- */ 
+
+.italic{
+    font-style: italic;
+}
+
+.flex-class{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.text-red {
+    color: #c03232;
+}
+
+/* -------------------------------- GENERALES RULES -------------------------------- */ 
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 60px;
+    color: #f4e6e6;
+}
+
+h1 b{
+    font-weight: 700; 
+}
+
+h3 {
+    font-size: 18px; 
+    font-weight: 600;
+}
+
+
+
+/* ------------- SECTION 1 ------------- */ 
+.red-background{
+    position: absolute;
+    background-color: #ed4e4d; 
+    width: 100%;
+    height: 630px;
+    z-index: -1;
+}
+
+.section1 {
+    padding-top: 15px;
+}
+
+.logo{
+    width: 115px;
+    height: auto;
+}
+
+.banner {
+    margin-bottom: 105px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    -ms-grid-row-align: flex-end;
+    align-items: flex-end;
+}
+
+
+.menu li {
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    margin-left: 55px;
+    
+}
+
+
+.section1-left-div h1 {
+    margin-bottom: 33px;  
+    font-weight: 300;
+    padding-right: 50px;
+    
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+}
+
+.watch {
+    color: #eddede;
+    margin-bottom: 42px;
+}
+.watch img {
+    height: 45px;
+    width: auto;
+    margin-right: 10px;
+}
+
+
+.iphone{
+    width: 290px;
+    height: auto;
+    padding-top: 10px;
+    margin-left: -30px;
+}
+
+.download-btn img{
+    height: 50px;
+    padding-right: 22px;
+}
+
+/* ------------- SECTION 2 ------------- */ 
+
+.section2 {
+    margin-top: 150px;
+}
+
+.section2 h1 {
+    width: 100%;
+    text-align: center;
+    color: #2c3342;
+    margin-bottom: 140px;
+}
+
+.section2 p {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 19px;
+    padding: 0 20px;
+}
+
+.bin-img {
+    height: 420px;
+    width: auto;
+    margin-left: auto;
+    margin-top: -40px;
+}
+
+
+
+/* ------------- SECTION 3 ------------- */
+.section3 {
+    margin-top: 150px;
+}
+
+.section3 h1 {
+    width: 100%;
+    text-align: left;
+    color: #2c3342;
+    margin-bottom: 145px;
+    padding-left: 40px;
+}
+
+.people-talk-img {
+    height: 450px;
+    width: auto;
+    margin-left: auto;
+    margin-top: -70px;
+}
+
+.section3 p{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 19px;
+    padding: 0 20px;
+}
+
+.social-life-text{ 
+    display: block;
+    text-align: right !important; 
+    margin-top: 100px;
+    margin-bottom: 190px;
+}
+
+/* ------------- SECTION 4 ------------- */
+
+#section4 {
+    background-color: #26292e;
+}
+
+.section4{
+    color: #f9f9f9;
+    text-align: center;
+}
+
+.section4 h2{
+    margin-top: 78px;
+    margin-bottom: 44px;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.convinced-download img{
+    height: 50px;
+    margin: 0 7px;
+    margin-bottom: 70px;
+}
+
+/* ------------- SECTION 5 ------------- */
+
+.section5-h1{
+    margin-top: 135px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.iphone2-img{
+    width: 212px;
+    height: auto;
+    margin-left: -23px;
+}
+
+.section5-list img{
+    width: 40px;
+    height: 40px;
+}
+
+.section5-list {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 50px 0;
+    opacity: 0.75;
+}
+.section5-list:hover{
+      opacity: 1.0;  
+}
+
+
+.section5-list :first-child{
+    margin-right: 20px;
+}
+
+
+.section5-panels-left .section5-list{
+    margin-right: 60px;
+}
+
+.section5-panels-right .section5-list{
+    margin-left: 60px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+
+.section5-flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+}
+
+
+
+hr.custom-hr{
+    margin: 125px 25px 0px 25px;
+ 	border-top: 2px dashed #e0e0e0;   
+}
+
+/* ------------- SECTION 6 ------------- */
+
+.section6-h1{
+    margin-top: 80px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.section6 img{
+    width: 100px;
+    height: auto;
+}
+
+.section6-items{
+    text-align: center;
+}
+
+.section6-items h3{
+    font-size: 15px;
+    font-weight: 700;  
+    margin: 10px 0;
+}
+
+.section6-items p{
+    font-size: 12px;
+    font-weight: 600;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 55px;  
+}
+
+
+/* ------------- SECTION 7 ------------- */
+
+#section7 {
+    background-color: #26292e;
+}
+
+.section7{
+    color: #f9f9f9;
+    text-align: center;
+}
+
+.section7 h2{
+    margin-top: 78px;
+    margin-bottom: 44px;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.seriously-download img{
+    height: 50px;
+    margin: 0 7px;
+    margin-bottom: 70px;
+}
+
+
+/* ------------- SECTION 8 ------------- */
+
+.section8-h1{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.section8 .row{
+    width: 770px;
+    margin: 0 auto;
+}
+
+.section8-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+    padding: 0 20px 24px 20px;
+}
+
+.section8-items img{
+    width: 230px;
+    height: 140px;
+}
+
+.section8-items h3{
+    position: absolute;
+    z-index: 2;
+    color: white;
+}
+
+.section8>h3{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.section8 form{
+    text-align: center; 
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.section8-form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.section8-text-input {
+    width: 210px;
+    height: 30px;
+    padding-left: 10px;
+    background : #d1d1d1; 
+    border: 0px solid;
+    box-shadow: none; 
+    border-radius: 3px 0 0 3px;
+    color: #f9f9f9;
+    font-weight: 500;
+}
+
+.section8-submit{
+    height: 30px; 
+    width: 50px;
+    background: #26292e;
+    color: #f9f9f9;
+    border: 0px solid;
+    box-shadow: none;
+    font-size: 12px;
+    border-radius: 0 3px 3px 0;
+    font-weight: 600;
+}
+
+/* ------------- SECTION 9 ------------- */
+
+#section9 {
+    background-color: #26292e;
+    color: #d4d4d4;
+}
+
+.section9{
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+
+.section9-left .row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;  
+}
+
+.col-about{
+    margin-right: 120px;
+}
+
+.footer-left-col h3{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-left-col li{
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer-left-col a{
+    color: #d4d4d4;
+    text-decoration: none;
+}
+
+
+
+.section9-center{
+    text-align: center;
+}
+
+.section9-center>h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-top: 0px;;
+}
+
+.section9-center img{
+    width: 30px;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 65px;
+    margin-left: 12px;
+    margin-right: 12px;  
+}
+
+.section9-center p{
+    font-size: 14px;
+}
+
+
+.section9-right{
+    text-align: right;
+}
+
+.footer-download {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.footer-download img{
+    height: 45px;
+    margin: 0 7px;
+    margin-bottom: 68px;
+}
+
+.footer-heart{
+    width: 15px;
+    height: auto;
+}
+
+
+
+
+
+
+.big-title-font{
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.02em;
+}
+
+
+
+
+/* -------------------------------- Animation -------------------------------- */ 
+
+a:hover{
+    opacity: 0.9;
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
