@@ -71,6 +71,10 @@ table {
     color: #c03232;
 }
 
+.justify-right{
+    text-align: right;
+}
+
 /* -------------------------------- GENERALES RULES -------------------------------- */ 
 
 body {
@@ -145,7 +149,7 @@ h3 {
 .section1-left-div h1 {
     margin-bottom: 33px;  
     font-weight: 300;
-    padding-right: 50px;
+    padding-right: 0px;
     
     font-size: 36px;
     line-height: 50px;
@@ -191,6 +195,7 @@ h3 {
 .section2 p {
     color: black;
     font-size: 20px;
+    line-height: 26px;
     margin-bottom: 19px;
     padding: 0 20px;
 }
@@ -227,8 +232,9 @@ h3 {
 .section3 p{
     color: black;
     font-size: 20px;
+    line-height: 26px;
     margin-bottom: 19px;
-    padding: 0 20px;
+    padding: 0 17px;
 }
 
 .social-life-text{ 
@@ -237,6 +243,54 @@ h3 {
     margin-top: 100px;
     margin-bottom: 190px;
 }
+
+.section3-red{
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.section3-more-infos-sections>*{
+    margin-bottom: 50px; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.section3-more-infos-first P{
+    margin-bottom: 0px;
+    width: 670px;
+    text-align: justify;
+    margin-left: -10px;
+}
+
+
+.section3-more-infos-second{
+    text-align: right;
+    padding-bottom: 0px;
+}
+
+.section3-more-infos-second P{
+    width: 700px;
+    margin-left: 260px;
+    margin-bottom: 0;
+}
+
+.section3-more-infos-third P{
+    margin-bottom: 0px;
+    width: 670px;
+    text-align: justify;
+    margin-left: -10px;
+}
+
+.section3-more-infos-sections{
+    margin-bottom: 130px;
+}
+
 
 /* ------------- SECTION 4 ------------- */
 
@@ -301,7 +355,13 @@ h3 {
 
 .section5-panels-left .section5-list{
     margin-right: 60px;
+    text-align: right;
 }
+
+.section5-panels-left .section5-list p{
+    width: 310px;
+}
+
 
 .section5-panels-right .section5-list{
     margin-left: 60px;
@@ -320,6 +380,9 @@ h3 {
     align-items:center;
 }
 
+.section5-panels-right .section5-list p{
+    width: 360px;
+}
 
 
 hr.custom-hr{
@@ -353,7 +416,7 @@ hr.custom-hr{
 .section6-items p{
     font-size: 12px;
     font-weight: 600;
-    width: 300px;
+    width: 280px;
     margin: 0 auto;
     margin-bottom: 55px;  
 }
@@ -425,9 +488,11 @@ hr.custom-hr{
 
 .section8>h3{
     text-align: center;
-    margin-top: 18px;
+    margin-top: 8px;
     font-size: 14px;
 }
+
+
 
 .section8 form{
     text-align: center; 
