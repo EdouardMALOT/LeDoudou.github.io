@@ -881,6 +881,61 @@ a:hover{
     .section7 h2{
         font-size: 24px;
     }
+    
+    /* ------------- SECTION 8 ------------- */ 
+    
+    .section8 .row {
+        width: auto;    
+    }
+    
+    .section8-responsive {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: auto;
+    }
+    
+ 
+    .responsive-arrow-left{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 32;
+        flex: 0 0 32; 
+        
+        margin-left: 10px;
+        margin-right: 15px;
+    }
+    
+     .responsive-arrow-right{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 32;
+        flex: 0 0 32; 
+
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    
+ 
+    .section8-img-responsive{
+        background-color: green;
+        height: auto;
+        width: 60%;
+        -ms-flex-preferred-size: 300px;
+        flex-basis: 300px;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-negative: 1;
+        flex-shrink: 1;
+        
+    }
+    
+    .section-8-first-h3{
+        margin-top: 40px !important;
+    }
+    
 }
 
 

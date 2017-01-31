@@ -21,7 +21,7 @@
                 text[2] = "Check out the other people also going later on";
                 text[3] = "Hide anyone you aren't keen on, now they can no longer see your profile. See someone interesting? Send them a like!";
                 text[4] = "Head out to a venue and connect with the other Soda users you saw on the app earlier. <br>Go alone or with friends, who cares!?<br>Just get social and be rewarded for it";
-                text[5] = ">Delete all generic dating apps on your phone because you are now a certified social animal!";
+                text[5] = "Delete all generic dating apps on your phone because you are now a certified social animal!";
         
             let i = 1;
             setInterval(NextIphoneImgAndText, 4000);
