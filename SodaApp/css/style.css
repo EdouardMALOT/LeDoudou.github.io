@@ -658,6 +658,8 @@ a:hover{
 }
 
 /* ---------------------------- Responsive design ---------------------------- */ 
+
+
 @media (max-width: 991px) {
     
    .red-background{
@@ -665,10 +667,7 @@ a:hover{
     }
 }
 
-
-
 @media (max-width: 767px) {
-    
     
      .big-title-font{
         font-size: 24px;
