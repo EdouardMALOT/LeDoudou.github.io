@@ -659,6 +659,15 @@ a:hover{
 
 /* ---------------------------- Responsive design ---------------------------- */ 
 
+@media (max-width: 1200px) and (min-width:767px)  {
+    .section3-more-infos-second .section3-red{
+        position: absolute;
+        right: -8px;
+        top: -30px;
+    }
+
+}
+
 
 @media (max-width: 991px) {
     
@@ -667,7 +676,7 @@ a:hover{
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
     
      .big-title-font{
         font-size: 24px;
