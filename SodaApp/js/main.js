@@ -77,6 +77,55 @@
                 closeEffect	: 'elastic'
             });
         
+        //Some place image in responsive
+            let indexResponsiveImg = 0;
+        
+            let imagesSection8 = [];
+                imagesSection8[0] = "img/tonic.png";
+                imagesSection8[1] = "img/beer.png";
+                imagesSection8[2] = "img/brew.png";
+                imagesSection8[3] = "img/lulu.png";
+                imagesSection8[4] = "img/whistle.png";
+                imagesSection8[5] = "img/OX184.png";
+        
+             let textSection8 = [];
+                textSection8[0] = "TONIC";
+                textSection8[1] = "BEER & SKITTLES";
+                textSection8[2] = "BREW LAB";
+                textSection8[3] = "LULU";
+                textSection8[4] = "WHISTLE STOP";
+                textSection8[5] = "OX184";
+        
+        
+        
+            $('.responsive-arrow-left').on('click',function(){
+                if(--indexResponsiveImg < 0) {
+                    indexResponsiveImg = (imagesSection8.length-1);
+                }
+                UpdateSection8Responsive();
+                return false;
+            });
+        
+        
+        
+            $('.responsive-arrow-right, .next-img').on('click',function(){
+                if(++indexResponsiveImg > (imagesSection8.length-1)) {
+                    indexResponsiveImg = 0;
+                }
+                UpdateSection8Responsive();
+                return false;
+            });      
+        
+        next-img
+        
+        
+            function UpdateSection8Responsive(){
+                $('.section8-text-responsive').fadeOut(150);
+                $('.section8-img-responsive').fadeOut(150, function(){
+                      $('.section8-img-responsive').attr('src', imagesSection8[indexResponsiveImg]).fadeIn(150);
+                      $('.section8-text-responsive').text(textSection8[indexResponsiveImg]).fadeIn(150);
+                });
+            }
     });
 
 
