@@ -823,8 +823,64 @@ a:hover{
         font-size: 24px;
     }
     
-     /* ------------- SECTION 5 ------------- */       
+     /* ------------- SECTION 5 ------------- */     
+    .section5 h1{
+        margin-top: 110px;
+        margin-bottom: 50px !important;
+    }
     
+    .section5-iphone{
+        text-align: center;
+    }
+    
+    .section5-list-responsive{
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    .section5-list-responsive img{
+        width: 40px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+     
+    .section5-list-responsive p{
+        width: 70%;
+        margin: 0 auto;
+        height: 20px;
+        font-size: 18px;
+    }
+    
+    .iphone2-img{
+        margin-left: 0px;
+    }
+    
+    /* ------------- SECTION 6 ------------- */     
+    .section6-h1{
+        font-size: 30px;
+        margin-bottom: 80px !important;
+    }
+    
+    .section6-items img{
+        width: 150px;
+        height: auto;
+    }
+    
+    .section6-items h3{
+        font-size: 18px;
+    }
+    
+    .section6-items p{
+        font-size: 18px;
+        width: 70%;
+        font-weight: 500;
+    }
+    
+    /* ------------- SECTION 7 ------------- */     
+    .section7 h2{
+        font-size: 24px;
+    }
 }
 
 
