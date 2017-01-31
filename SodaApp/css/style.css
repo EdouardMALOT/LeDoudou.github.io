@@ -747,6 +747,84 @@ a:hover{
         height: auto;
     }
     
+    .social-life-text{
+        margin-top: 140px;
+        line-height: 32px;
+        margin-bottom: 70px !important;
+    }
+    
+    
+    /*  -----  */
+    
+    .section3-more-infos-first {
+        padding: 0 55px;
+        margin-bottom: 15px;
+    }   
+    
+    .section3-more-infos-first .section3-red {
+         text-align: left; 
+         margin-bottom: 7px;
+         padding: 3px;
+    }
+    
+    .section3-more-infos-first p{
+        width: 100%;
+        font-size: 18px;
+        padding: 0;
+        padding-right: 60px;
+        line-height: 20px;
+    }
+    
+     /*  -----  */   
+    
+    .section3-more-infos-second {
+        padding: 0 55px;
+        margin-bottom: 15px;
+    }
+    
+    .section3-more-infos-second .section3-red {
+         text-align: right; 
+         margin-bottom: 7px;
+         padding: 3px;
+    } 
+    
+    .section3-more-infos-second p{
+        width: 100%;
+        font-size: 18px;
+        padding: 0;
+        padding-right: 60px;
+        line-height: 20px;
+        margin-left: 50px;
+        padding-right: 40px;
+    }
+    
+    /*  -----  */  
+    
+    .section3-more-infos-third {
+        padding: 0 55px;
+    }   
+    
+    .section3-more-infos-third .section3-red {
+         text-align: left; 
+         margin-bottom: 7px;
+         padding: 3px;
+    }
+    
+    .section3-more-infos-third p{
+        width: 100%;
+        padding: 0;
+        font-size: 18px;
+        padding-right: 0px;
+        line-height: 20px;
+    }
+    
+    /* ------------- SECTION 4 ------------- */     
+    .section4 h2{
+        font-size: 24px;
+    }
+    
+     /* ------------- SECTION 5 ------------- */       
+    
 }
 
 
