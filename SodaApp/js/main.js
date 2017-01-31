@@ -20,26 +20,42 @@
 
             function NextIphoneImg() {
                 $('.iphone2-img').fadeOut(250, function(){
-                    
                     $(this).attr('src', images[i]).fadeIn(250);
-                    console.log("i=", i);
                 })
                 i++;
-               i = (i < images.length) ? i : 0;
+                i = (i < images.length) ? i : 0;
             }
     });
 
 
-//Smooth scrolling
-//----------------
+//Wait until document is ready
+//----------------------------
     $( document ).ready(function() {
+        
+        //Smooth scrolling      
             $('.js-link').on('click', function() { 
                 var page = $(this).attr('href'); 
                 var speed = 750; 
                 $('html, body').animate( { scrollTop: $(page).offset().top }, speed );
                 return false;
             });
+        
+        
+        //FancyBox
+            $(".fancybox").fancybox();
 
+        	$(".various").fancybox({
+                maxWidth	: 800,
+                maxHeight	: 600,
+                fitToView	: false,
+                width		: '70%',
+                height		: '70%',
+                autoSize	: false,
+                closeClick	: false,
+                openEffect	: 'elastic',
+                closeEffect	: 'elastic'
+            });
+        
     });
 
 
