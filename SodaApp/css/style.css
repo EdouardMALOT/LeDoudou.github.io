@@ -658,6 +658,14 @@ a:hover{
 }
 
 /* ---------------------------- Responsive design ---------------------------- */ 
+@media (max-width: 991px) {
+    
+   .red-background{
+        height: 400px;
+    }
+}
+
+
 
 @media (max-width: 767px) {
     
@@ -934,6 +942,60 @@ a:hover{
     
     .section-8-first-h3{
         margin-top: 40px !important;
+        padding: 10px 0;
+    }
+
+    /* ------------- SECTION 9 ------------- */ 
+    .footer-download{
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    
+    .footer-download img{
+        height: 70px;
+        margin: 0 7px;
+        margin-bottom: 70px;
+    }
+    
+    .section9-left .row {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .footer-left-col h3{
+        font-size: 32px;
+        font-weight: 400;
+        margin-bottom: 35px;
+    }
+    
+    .footer-left-col li{
+        margin: 20px 0;
+    }
+    
+    .footer-left-col a{
+        font-size: 30px;
+        font-weight: 300;
+        margin: 20px 0 !important;
+    }
+    
+    .find-us {
+        display: none;
+    }
+       
+    .media-icon img{
+        width: 70px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .section9-center P {
+        font-size: 24px;
+        margin-bottom: 40px;
     }
     
 }
