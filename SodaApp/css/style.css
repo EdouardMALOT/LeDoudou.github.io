@@ -673,17 +673,10 @@ a:hover{
 }
 
 
-@media (max-width: 991px) {
-    
-   .red-background{
-        height: 400px;
-    }
-}
 
 
 @media (max-width: 769px) {
     
-
     
      .big-title-font{
         font-size: 24px;
@@ -696,6 +689,9 @@ a:hover{
     /* ------------- SECTION 1 ------------- */ 
     .black-background{
         height: 80px;
+    }
+      .red-background{
+        height: 800px !important;
     }
     
     .responsive-nav{
