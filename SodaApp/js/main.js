@@ -124,6 +124,13 @@
                       $('.section8-text-responsive').text(textSection8[indexResponsiveImg]).fadeIn(150);
                 });
             }
+        
+        //Responsive menu btn
+            $('.menu-responsive-btn').on('click', function(){
+                $('.menu-responsive').slideToggle("slow"); 
+                return false;
+            });
+        
     });
 
 
