@@ -116,8 +116,6 @@
                 return false;
             });      
         
-        next-img
-        
         
             function UpdateSection8Responsive(){
                 $('.section8-text-responsive').fadeOut(150);
