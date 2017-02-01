@@ -807,6 +807,11 @@ a:hover{
         line-height: 20px;
     }
     
+    .section3-more-infos-sections .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
      /*  -----  */   
     
     .section3-more-infos-second {
