@@ -942,8 +942,8 @@ a:hover{
    
     .responsive-arrow-left{
         -webkit-box-flex: 0;
-        -ms-flex: 0 0 20px;
-        flex: 0 0 20px; 
+        -ms-flex: 1 1 20px;
+        flex: 1 1 20px; 
         
         padding-left: 10px;
         padding-right: 30px;
@@ -951,8 +951,8 @@ a:hover{
     
      .responsive-arrow-right{
         -webkit-box-flex: 0;
-        -ms-flex: 0 0 20px;
-        flex: 0 0 20px; 
+        -ms-flex: 1 1 20px;
+        flex: 1 1 20px; 
 
         padding-left: 30px;
         padding-right: 10px;
@@ -962,7 +962,7 @@ a:hover{
     .section8-img-responsive{
         background-color: green;
         height: auto;
-        width: 60%;
+        width: 40%;
         -ms-flex-preferred-size: 300px;
         flex-basis: 300px;
         -webkit-box-flex: 1;
@@ -1058,6 +1058,16 @@ a:hover{
     
     .section1-left-div h1{ 
         font-size: 26px;
+    }
+    
+    .responsive-arrow-left {
+        padding-left: 1px;
+        padding-right: 10px;       
+    }
+      
+    .responsive-arrow-right {
+        padding-left: 10px;
+        padding-right: 1px;       
     }
 }
 
